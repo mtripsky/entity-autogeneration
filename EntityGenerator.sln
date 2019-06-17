@@ -1,0 +1,61 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0A0E38DC-55D4-4BB8-8D58-10D4BBCA22AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{EB3F3061-0512-4C73-A264-18A63E1738B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGeneratorReplay", "tools\AutoGeneratorReplay\AutoGeneratorReplay.csproj", "{4D1647DD-98B6-4B5C-BCD9-D5246C33B378}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BCD5CE9D-F22C-4C72-88DD-60AEDFC5795C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityGenerator.Domain.Tests", "tests\EntityGenerator.Domain.Tests\EntityGenerator.Domain.Tests.csproj", "{4D36D7F7-226D-4F11-8339-E1BB33C89679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autogeneration.Contracts", "src\Autogeneration.Contracts\Autogeneration.Contracts.csproj", "{F6C65F8B-B79B-462F-B924-B5ECEC6D85B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autogeneration.Domain", "src\Autogeneration.Domain\Autogeneration.Domain.csproj", "{FA818935-5B00-4F0D-A35C-A10C0E88CB57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autogeneration.Dto", "src\Autogeneration.Dto\Autogeneration.Dto.csproj", "{97369477-F720-47E5-B83A-DED69F5E50E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGen.Application", "src\AutoGen.Application\AutoGen.Application.csproj", "{5F782A0A-A605-4FDD-A122-C88A60621E55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D1647DD-98B6-4B5C-BCD9-D5246C33B378}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4D1647DD-98B6-4B5C-BCD9-D5246C33B378}.Debug|x86.Build.0 = Debug|Any CPU
+		{4D1647DD-98B6-4B5C-BCD9-D5246C33B378}.Release|x86.ActiveCfg = Release|Any CPU
+		{4D1647DD-98B6-4B5C-BCD9-D5246C33B378}.Release|x86.Build.0 = Release|Any CPU
+		{4D36D7F7-226D-4F11-8339-E1BB33C89679}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4D36D7F7-226D-4F11-8339-E1BB33C89679}.Debug|x86.Build.0 = Debug|Any CPU
+		{4D36D7F7-226D-4F11-8339-E1BB33C89679}.Release|x86.ActiveCfg = Release|Any CPU
+		{4D36D7F7-226D-4F11-8339-E1BB33C89679}.Release|x86.Build.0 = Release|Any CPU
+		{F6C65F8B-B79B-462F-B924-B5ECEC6D85B1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F6C65F8B-B79B-462F-B924-B5ECEC6D85B1}.Debug|x86.Build.0 = Debug|Any CPU
+		{F6C65F8B-B79B-462F-B924-B5ECEC6D85B1}.Release|x86.ActiveCfg = Release|Any CPU
+		{F6C65F8B-B79B-462F-B924-B5ECEC6D85B1}.Release|x86.Build.0 = Release|Any CPU
+		{FA818935-5B00-4F0D-A35C-A10C0E88CB57}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FA818935-5B00-4F0D-A35C-A10C0E88CB57}.Debug|x86.Build.0 = Debug|Any CPU
+		{FA818935-5B00-4F0D-A35C-A10C0E88CB57}.Release|x86.ActiveCfg = Release|Any CPU
+		{FA818935-5B00-4F0D-A35C-A10C0E88CB57}.Release|x86.Build.0 = Release|Any CPU
+		{97369477-F720-47E5-B83A-DED69F5E50E0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{97369477-F720-47E5-B83A-DED69F5E50E0}.Debug|x86.Build.0 = Debug|Any CPU
+		{97369477-F720-47E5-B83A-DED69F5E50E0}.Release|x86.ActiveCfg = Release|Any CPU
+		{97369477-F720-47E5-B83A-DED69F5E50E0}.Release|x86.Build.0 = Release|Any CPU
+		{5F782A0A-A605-4FDD-A122-C88A60621E55}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5F782A0A-A605-4FDD-A122-C88A60621E55}.Debug|x86.Build.0 = Debug|Any CPU
+		{5F782A0A-A605-4FDD-A122-C88A60621E55}.Release|x86.ActiveCfg = Release|Any CPU
+		{5F782A0A-A605-4FDD-A122-C88A60621E55}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D1647DD-98B6-4B5C-BCD9-D5246C33B378} = {EB3F3061-0512-4C73-A264-18A63E1738B7}
+		{4D36D7F7-226D-4F11-8339-E1BB33C89679} = {BCD5CE9D-F22C-4C72-88DD-60AEDFC5795C}
+		{F6C65F8B-B79B-462F-B924-B5ECEC6D85B1} = {0A0E38DC-55D4-4BB8-8D58-10D4BBCA22AD}
+		{FA818935-5B00-4F0D-A35C-A10C0E88CB57} = {0A0E38DC-55D4-4BB8-8D58-10D4BBCA22AD}
+		{97369477-F720-47E5-B83A-DED69F5E50E0} = {0A0E38DC-55D4-4BB8-8D58-10D4BBCA22AD}
+		{5F782A0A-A605-4FDD-A122-C88A60621E55} = {0A0E38DC-55D4-4BB8-8D58-10D4BBCA22AD}
+	EndGlobalSection
+EndGlobal
