@@ -1,0 +1,55 @@
+﻿{
+  "Entities": 
+  [
+    {
+      "Name": "Person",
+      "Fields": [
+        {
+          "FieldName": "Id",
+          "Type": "string"
+        },
+        {
+          "FieldName": "Name",
+          "Type": "string"
+        },
+        {
+          "FieldName": "Age",
+          "Type":  "int"
+        },
+        {
+          "FieldName": "Friends",
+          "Type": "List<Person>"
+        }
+      ]
+    },
+    {
+      "Name": "Student",
+      "Fields": [
+        {
+          "FieldName": "Id",
+          "Type": "string"
+        },
+        {
+          "FieldName": "Name",
+          "Type": "string"
+        },
+        {
+          "FieldName": "Age",
+          "Type": "int"
+        },
+        {
+          "FieldName": "Friends",
+          "Type": "List<Person>"
+        },
+        {
+          "FieldName":  "School",
+          "Type": "string"
+        },
+        {
+          "FieldName": "Grades",
+          "Type": "List<string>"
+        }
+      ]
+    }
+  ]
+}
