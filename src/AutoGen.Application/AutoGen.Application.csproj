@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="IoC\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Autogeneration.Contracts\Autogeneration.Contracts.csproj" />
+    <ProjectReference Include="..\Autogeneration.Domain\Autogeneration.Domain.csproj" />
+    <ProjectReference Include="..\Autogeneration.Dto\Autogeneration.Dto.csproj" />
+  </ItemGroup>
+</Project>
